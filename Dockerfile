@@ -4,7 +4,7 @@ MAINTAINER v3ksing
 
 RUN apt-get update
 
-ADD target/demo-0.0.1-SNAPSHOT.jar /app/target/
+ADD dist/demo-0.0.1-SNAPSHOT.jar /app/target/
 
 WORKDIR /app/
 
